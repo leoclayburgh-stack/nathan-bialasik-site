@@ -104,6 +104,7 @@ main{display:block}
 
 .places{padding:0 var(--gutter) 120px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
 .place{border:1px solid var(--line);border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;gap:10px}
+.place-img{max-width:none;width:calc(100% + 64px);margin:-32px -32px 16px;aspect-ratio:3/2;object-fit:cover;border-radius:var(--radius) var(--radius) 0 0}
 .place-name{font-size:30px;font-weight:500;letter-spacing:-.02em;line-height:1.1}
 .place-addr{font-size:15px;color:var(--muted)}
 
@@ -181,6 +182,7 @@ main{display:block}
 
   .places{grid-template-columns:1fr;gap:12px}
   .place{padding:24px}
+  .place-img{width:calc(100% + 48px);margin:-24px -24px 12px}
   .place-name{font-size:26px}
 
 
